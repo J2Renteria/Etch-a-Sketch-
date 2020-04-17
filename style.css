@@ -1,0 +1,22 @@
+html{
+    display:flex;
+    justify-content: center;
+}
+
+#container {
+    width: 350px;
+    height: 350px;
+    display:grid;
+    border: 5px solid black;
+    grid-template-columns: repeat(16, 1fr);
+    margin: 15px;
+
+}
+.item{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
